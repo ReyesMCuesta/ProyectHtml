@@ -1,0 +1,13 @@
+0 - cuenta testlodge	4	/	4	
+1 - introducción ( 7 ppipios)	3,5	/	4	
+2 - tipos pruebas esquema / definicion tipos (1 diapo por cada) / coste prueba por nivel/ coste por fase	4,5	/	8	os pedía una diapositiva por cada tipo de prueba, no habéis definido los tipos de pruebas funcionales sólo estan nombradas y sin embargo las no funcionales si las definis. Hay partes que quedan poco claras, están correctas pero hay demasiado texto, debería ser un poco más esquematizado.
+3 - definicion / principios /ventajas 	5	/	6	
+4 - plan pruebas	5	/	6	alguna info debe completarse diferente, el entorno se refiere a que se debe ejecutar en el entorno de chrome, en approach se deben describir los tipos de pruebas que se van a hacer, es decir que son las pruebas unitarias, las de aceptación y las de regresión, o en features to be tested, detallar la funcionalidad a probar, en este caso añadir equipo, añadir jugador y asignar equipo.
+5 - doc requisitos	4	/	4	
+6 - unitarias	10	/	18	Las pruebas están bien definidas, lo único que faltan algunos casos, en nombre además de vacío, correcto e incorrecto, deberíais probar los valores límite, es decir con igual a 4 carácteres e igual a 20, y con menos de los valores limite, es decir con menos de 4 y más de 20. Igual con ranking. En edad deberíais probar además de menor y mayor a 18, edad igual a 18. En idioma, además de correcto y vacio, deberías probar con uno que no se permita por ejemplo japonés. En los campos en general, deberíais probar a introducir valores numéricos en el nombre, y valores de letras en los números para ver la respuesta. En asignar equipo os ha faltado añadir los casos de un jugador y un equipo que no existan y comprobar que no se pueden asignar.
+7 - aceptación	10	/	15	Las pruebas de aceptación están bien definidas, aunque faltan algunos casos como probar con un equipo de menos de 4 carácteres y un ranking menor a 0, en asignar equipo faltan los casos de asignar equipo a un jugador que no existan anteriormente, y en las de añadir equipo igual faltan algunos casos más como que se introduzca un nombre de menos de 4 carácteres y una edad con valores numéricos por ejemplo. 
+8 - regresión	12	/	12	Las de regresión están correctas bien definidas
+9 - implementación formularios	15	/	15	
+10 - proyecto java	6	/	6	
+11 - ejecución pruebas	10	/	12	la ejecución está completa y bien detallada, sólo era necesario ejecutar las de aceptación no las de regresión. Tenéis algunas pruebas marcadas como fallidas cuando han hecho lo correcto, por ejemplo añadir un jugador vacío muestra un error, y en la captura está correcto que muestra el error, pero la ponéis como fallida.
+	89	/	110	
